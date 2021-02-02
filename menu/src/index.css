@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container {
+  width: 90vw;
+  margin: 5rem auto;
+  text-align: center;
+}
+.btn {
+  border: none;
+  margin: 1rem;
+  background: none;
+}
+.underline {
+  margin: auto;
+  width: 8vw;
+  height: 0.25rem;
+  background-color: red;
+}
+.card-container {
+  width: 80vw;
+  margin: auto;
+}
+.image {
+  width: 80vw;
+  height: 12rem;
+  border: 3px solid;
+  border: chocolate;
+  border: 3px solid chocolate;
+  border-radius: 3px;
+}
+
+.card-desc {
+  text-align: left;
+}
+.card-desc h4 {
+  display: inline;
+}
+.price {
+  display: inline;
+  float: right;
+}
+.card-title {
+  padding: 0.25rem;
+}
+@media only screen and (min-width: 768px) {
+  .image {
+    width: 14vw;
+    height: 7.5rem;
+  }
+  .card-container {
+    display: inline-block;
+    width: 40vw;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+  }
+  .image-container {
+    padding-right: 1rem;
+    flex: 30%;
+  }
+  .card-desc {
+    flex: 70%;
+  }
+}
